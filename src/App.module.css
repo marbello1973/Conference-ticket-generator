@@ -1,0 +1,32 @@
+
+.container {       
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/images/background-desktop.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {  
+    position: absolute;   
+    left: 0;
+    top: 0; 
+}
+
+/* Tabletas (768-1023) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    background-image: url('assets/images/background-tablet.png') ;
+  }  
+}
+/* Mobile (767px)*/
+@media (max-width: 767px) {
+  :root{
+    background-image: url('assets/images/background-mobile.png') ;    
+  }
+}
