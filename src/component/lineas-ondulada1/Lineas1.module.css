@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+}
+
+.svgResonsive{
+    width: 80vw;
+    height: auto;
+    max-width: 825px;
+}
+
+.svgResonsiveSmall{
+    width: 80vw;
+    height: auto;
+    max-width: 460px;
+}
